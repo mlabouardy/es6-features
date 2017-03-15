@@ -123,3 +123,19 @@ class Lion extends Animal{
   }
 }
 ```
+
+## Generators
+
+Used to debug a function
+
+```
+function* simpleGenerator(){
+ yield 'apples';
+ yield 'chicken';
+ console.log('okk');
+ yield 'meat';
+}
+
+let s = simpleGenerator();
+console.log(s.next());
+```
