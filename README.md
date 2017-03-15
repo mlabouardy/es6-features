@@ -100,3 +100,26 @@ console.log(mohamed.whoIam()); // My name is Mohamed and I'm 23 years old
 
 ## Inheritance
 
+```
+class Animal {
+  constructor(name){
+    this.name = name;
+  }
+  
+  eat(){
+    console.log('Eating ....');
+  }
+}
+
+class Rabbit extends Animal{
+  f(){
+    console.log('Calling f function');
+  }
+}
+
+class Lion extends Animal{
+  g(){
+    console.log('Calling g function');
+  }
+}
+```
