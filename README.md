@@ -42,3 +42,14 @@ We can even minimize the code above
 ```
 let circleArray = x => x*x*3.14;
 ```
+
+## Template literals
+
+Its a way to concat variable inside a string
+
+```
+let name = 'Mohamed'
+let age = 23
+let output = `My name is ${name} and I'm ${age} years old`
+console.log(output) // My name is Mohaemd and I'm 23 years old
+```
