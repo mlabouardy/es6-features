@@ -53,3 +53,16 @@ let age = 23
 let output = `My name is ${name} and I'm ${age} years old`
 console.log(output) // My name is Mohaemd and I'm 23 years old
 ```
+
+## Spread operator
+
+Split an array
+
+```
+function add(a,b,c){
+  return a+b+c;
+}
+
+var l = [1,4,6];
+add(...l);
+```
