@@ -66,3 +66,31 @@ function add(a,b,c){
 var l = [1,4,6];
 add(...l);
 ```
+## Classes
+
+```
+class Person{
+  constructor(name, age){
+    this.name = name;
+    this.age = age;
+  }
+  
+  getName(){
+    return this.name;
+  }
+  
+  getAge(){
+    return this.age;
+  }
+  
+  whoIam(){
+    return `My name is ${this.name} and I'm ${this.age} years old`
+  }
+}
+```
+
+To instanciate an person object
+
+```
+let mohamed = new Person('Mohamed', 23);
+```
