@@ -36,3 +36,9 @@ let circleArray = (x) => {
   return x*x*PI
 }
 ```
+
+We can even minimize the code above
+
+```
+let circleArray = x => x*x*3.14;
+```
