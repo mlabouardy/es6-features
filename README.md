@@ -93,4 +93,10 @@ To instanciate an person object
 
 ```
 let mohamed = new Person('Mohamed', 23);
+console.log(mohamed.getName()); // Mohamed
+console.log(mohamed.getAge()); // 23 
+console.log(mohamed.whoIam()); // My name is Mohamed and I'm 23 years old
 ```
+
+## Inheritance
+
