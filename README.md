@@ -15,4 +15,4 @@ console.log(name); // Error undefined
 ```
 A variable declared with the "let" keyword can be used inside the block of declaration (between curly braces)
 
-##
+## Arrow functions
