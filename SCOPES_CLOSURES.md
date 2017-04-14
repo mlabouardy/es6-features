@@ -14,3 +14,6 @@ IIFE = Immediatly Invoked Function Expression (its a way to call anonymous funct
  console.log(a+b);
 })()
 ```
+
+## Read vs Write operations
+
