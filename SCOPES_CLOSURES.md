@@ -15,5 +15,4 @@ IIFE = Immediatly Invoked Function Expression (its a way to call anonymous funct
 })()
 ```
 
-## Read vs Write operations
-
+- JS is compiled & interpreted language
