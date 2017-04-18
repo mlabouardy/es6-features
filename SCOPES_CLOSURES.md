@@ -16,7 +16,7 @@ IIFE = Immediatly Invoked Function Expression (its a way to call anonymous funct
 ```
 
 - JS is compiled & interpreted language
-
+- JS is single threaded
 - Undecalared variable(without var keyword) is registred to the global scope when we do a write operation
 
 ## Hoisting
@@ -31,4 +31,6 @@ Concept in JS: moving declarations to the top
 
 ## Closures
 
-function which remembers its scope
+function which remembers its scope even
+
+its a way to make private variables (module pattern)
