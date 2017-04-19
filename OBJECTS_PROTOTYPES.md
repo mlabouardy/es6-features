@@ -5,4 +5,6 @@
 - regular function (f())
 - function as property of an object (a.f())
 - as constructor (new F())
-- 
+- using the call function (f.call())
+
+- prototype is a kind of template and prototype to build an object (create a behaviour similar to class concept)
