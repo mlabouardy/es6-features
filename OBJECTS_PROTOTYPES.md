@@ -8,3 +8,5 @@
 - using the call function (f.call())
 
 - prototype is a kind of template and prototype to build an object (create a behaviour similar to class concept)
+
+## Prototype
