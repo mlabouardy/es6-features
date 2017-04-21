@@ -10,3 +10,7 @@
 - prototype is a kind of template and prototype to build an object (create a behaviour similar to class concept)
 
 ## Prototype
+
+- every object has a prototype property
+- the prototype property point to prototype object
+
